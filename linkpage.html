@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(180deg, #050008, #12001f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 20px;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile img {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 2px solid #6d28d9;
+      margin-bottom: 12px;
+    }
+
+    .profile h1 {
+      font-size: 1.4rem;
+      margin: 0;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #0b0014;
+      border: 1px solid #2e1065;
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+      text-decoration: none;
+      color: white;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .link:hover {
+      background: #140020;
+      transform: translateY(-2px);
+    }
+
+    .link span {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .link button {
+      background: #6d28d9;
+      border: none;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="profile">
+      <img src="country.png" alt="Profile picture">
+      <h1>Inara Arts</h1>
+    </div>
+
+    <!-- 5 LINK ROWS -->
+    <a class="link" href="https://www.instagram.com/inaraarts._/" target="_blank">
+      <span>Instagram</span>
+      <button>Open</button>
+    </a>
+
+    <a class="link" href="http://www.youtube.com/@DigitalMagic283" target="_blank">
+      <span>YouTube</span>
+      <button>Watch</button>
+    </a>
+
+    <a class="link" href="https://www.tiktok.com/@inara_artss?lang=en" target="_blank">
+      <span>TikTok</span>
+      <button>View</button>
+    </a>
+
+    <a class="link" href="https://digitalwizard2.gumroad.com/l/neeqzg" target="_blank">
+      <span>Wallpapers</span>
+      <button>Buy</button>
+    </a>
+
+    <a class="link" href="buymeacoffee.com/InaraArts" target="_blank">
+      <span>Buy me coffee</span>
+      <button>Support</button>
+    </a>
+
+  </div>
+
+</body>
+</html>
